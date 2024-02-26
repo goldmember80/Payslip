@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+}
+
+.list-left {
+    text-align: left;
+}
+.custom-dropdown {
+    width: 100px; /* Adjust the width as needed */
+}
