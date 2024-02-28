@@ -2,6 +2,16 @@
     text-align: center;
 }
 
+.rectangle {
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+li {
+    text-align: left;
+}
+
 .list-left {
     text-align: left;
 }

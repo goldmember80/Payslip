@@ -16,6 +16,22 @@ const App = () => {
     const renderAddContent = () => {
         return (
             <Container>
+                <br/>
+                <Row>
+                    <Col>
+                        <div className="rectangle">
+                            <ul>
+                                <li>This is a demo web for calculating progressive individual income tax.</li>
+                                <li>The frontend is generated using React and deployed on GitHub Pages,
+                                    while the backend is an ASP.net Core WebAPI deployed on Azure.</li>
+                                <li>GitHub Pages: https://goldmember80.github.io/Payslip </li>
+                                <li>Source Code: https://github.com/goldmember80/Payslip </li>
+                            </ul>
+                        </div>
+                    </Col>
+                </Row>
+                <br />
+                <br />
                 <h1>Employee Details:</h1>
                 <Form.Group as={Row} className="mb-3" controlId="formAddItem">
                     <Form.Label column sm="3">
