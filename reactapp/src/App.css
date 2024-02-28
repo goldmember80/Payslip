@@ -8,6 +8,23 @@
     padding: 5px;
 }
 
+.small-text {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.all {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
 li {
     text-align: left;
 }
@@ -16,5 +33,5 @@ li {
     text-align: left;
 }
 .custom-dropdown {
-    width: 100px; /* Adjust the width as needed */
+    width: 125px; /* Adjust the width as needed */
 }

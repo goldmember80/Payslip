@@ -28,7 +28,8 @@ builder.Services.AddDbContext<CalculatorContext>(opt => opt.UseInMemoryDatabase(
 
 var app = builder.Build();
 
-app.UseDefaultFiles();
+//For static website host
+app.UseDefaultFiles(); 
 app.UseStaticFiles();
 
 app.UseSwagger();
