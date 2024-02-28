@@ -133,14 +133,14 @@ const App = () => {
     //var webapi = "https://localhost:5064/api/Calculator";
     var webapi = "https://webapipayslip.azure-api.net"; 
 
-    const subscriptionKey = 'ded1fd7b1692415f9069559a614b4a16';
-    const headers = {
-        'Content-Type': 'application/json',
-        'Ocp-Apim-Subscription-Key': subscriptionKey
-    };
+    //const subscriptionKey = 'ded1fd7b1692415f9069559a614b4a16';
+    //const headers = {
+    //    'Content-Type': 'application/json',
+    //    'Ocp-Apim-Subscription-Key': subscriptionKey
+    //};
 
     async function getItems() {
-        axios.get(webapi, { headers }).then(function (res) {
+        axios.get(webapi).then(function (res) {
             setItems(res.data);
             console.log(res);
         }).catch(function (error) {
@@ -150,7 +150,7 @@ const App = () => {
 
     async function handleCal() {
         //setItems([...items, item]);
-        axios.post(webapi, inputs, { headers }).then(function (res) {
+        axios.post(webapi, inputs).then(function (res) {
                 getItems();
                 console.log(res);
         }).catch(function (error) {
@@ -159,7 +159,7 @@ const App = () => {
     }
 
     async function handleClear() {
-        axios.delete(webapi, { headers }).then(function (res) {
+        axios.delete(webapi).then(function (res) {
             getItems();
             console.log(res);
         }).catch(function (error) {
