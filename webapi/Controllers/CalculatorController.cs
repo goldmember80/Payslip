@@ -5,8 +5,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace webapi.Controllers
 {
-    //[Route("api/[controller]")]
-    [Route("/")]
+    [Route("api/[controller]")]
+    //[Route("/")]
     [ApiController]
     public class CalculatorController : ControllerBase
     {
