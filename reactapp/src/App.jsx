@@ -24,8 +24,7 @@ const App = () => {
                                 <li>This is a demo web for calculating progressive individual income tax.</li>
                                 <li>The frontend is generated using React and deployed on GitHub Pages,
                                     while the backend is an ASP.net Core WebAPI deployed on Azure.</li>
-                                <li>GitHub Pages: https://goldmember80.github.io/Payslip </li>
-                                <li>Source Code: https://github.com/goldmember80/Payslip </li>
+                                <li>Source Code: <a href= "https://github.com/goldmember80/Payslip"> https://github.com/goldmember80/Payslip </a> </li>
                             </ul>
                         </div>
                     </Col>
