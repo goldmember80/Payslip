@@ -133,7 +133,7 @@ const App = () => {
     //var webapi = "https://localhost:5064/api/Calculator";
     var webapi = "https://webapipayslip.azure-api.net"; 
 
-    //const subscriptionKey = 'ded1fd7b1692415f9069559a614b4a16';
+    //const subscriptionKey = '';
     //const headers = {
     //    'Content-Type': 'application/json',
     //    'Ocp-Apim-Subscription-Key': subscriptionKey
