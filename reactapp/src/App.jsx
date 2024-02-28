@@ -130,7 +130,8 @@ const App = () => {
         }));
     }
 
-    var webapi = "https://localhost:5064/api/Calculator";
+    //var webapi = "https://localhost:5064/api/Calculator";
+    var webapi = "https://webapipayslip.azure-api.net"; 
     async function getItems() {
         axios.get(webapi).then(function (res) {
             setItems(res.data);
